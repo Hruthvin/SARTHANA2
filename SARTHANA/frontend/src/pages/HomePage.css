@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; /* Classic font style */
+  background-color: #f4f4f9; /* Light neutral background */
+  color: #333; /* Dark text color for contrast */
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures footer sticks to the bottom */
+}
+
+/* Header */
+.homepage-header {
+  background-color: #007bff; /* Blue header */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.homepage-header h1 {
+  margin: 0;
+  font-size: 2.5rem; /* Large headline */
+}
+
+.homepage-header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+  font-style: italic; /* Adds a softer emphasis to the description */
+}
+
+/* Header */
+.homepage-header {
+  display: flex; /* Flexbox for logo and text alignment */
+  align-items: center;
+  justify-content: space-between;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.homepage-logo {
+  height: 60px; /* Adjust the size of the logo */
+  margin-right: 20px; /* Space between the logo and text */
+}
+
+.header-text {
+  flex-grow: 1; /* Allows text to take up remaining space */
+  text-align: center; /* Aligns text to the left */
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header-text p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+
+/* Navigation Bar */
+.homepage-nav {
+  background-color: #0056b9; /* Darker shade for the nav bar */
+  padding: 10px 0;
+}
+
+.homepage-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers navigation items */
+}
+
+.homepage-nav li {
+  margin: 0 15px; /* Spacing between nav items */
+}
+
+.homepage-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.homepage-nav a:hover {
+  text-decoration: underline; /* Adds interactivity on hover */
+}
+
+/* Main Content */
+.homepage-main {
+  flex-grow: 1; /* Fills remaining space */
+  padding: 20px;
+}
+
+.homepage-main h2 {
+  color: #0056b3; /* Matches nav bar */
+  border-bottom: 2px solid #ccc; /* Optional: Underline for section headings */
+  padding-bottom: 5px;
+}
+
+.homepage-main p {
+  font-size: 1rem;
+  line-height: 1.6; /* Improves readability */
+  margin: 10px 0;
+}
+
+.homepage-main ul {
+  list-style-type: disc; /* Classic bullet points */
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+/* Footer */
+.homepage-footer {
+  background-color: #333; /* Dark footer */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  margin-top: auto; /* Ensures footer stays at the bottom */
+}
+
+/* Links inside Footer */
+.homepage-footer a {
+  color: #007bff; /* Blue footer links */
+  text-decoration: none;
+}
+
+.homepage-footer a:hover {
+  text-decoration: underline;
+}
